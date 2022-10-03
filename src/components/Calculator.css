@@ -1,0 +1,76 @@
+.heading {
+  font-size: 35px;
+  font-family: "Architects Daughter", cursive;
+  color: lightcoral;
+  /* text-shadow: 1px 1px 2px black, 0 0 25px rgb(37, 25, 206), 0 0 5px rgb(51, 22, 88); */
+  text-shadow: -7px 3px 5px #3d278a;
+}
+.back {
+  width: 150px;
+}
+button.back {
+  background-color: lightcoral;
+}
+button.back:hover {
+  background-color: red;
+}
+.clear {
+  width: 150px;
+}
+button.clear {
+  background-color: lightcoral;
+}
+button.clear:hover {
+  background-color: red;
+}
+.result {
+  border: 3px solid rgb(163, 163, 167);
+  height: 60px;
+  background-color: lightgreen;
+  width: 100%;
+}
+.result p {
+  font-weight: bold;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  color: darkgreen;
+  margin: 5px;
+  font-style: italic;
+  font-size: 25px;
+}
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+.button {
+  display: block;
+  background-color: #bbb;
+}
+button:hover {
+  background-color: rgb(100, 41, 155);
+  color: whitesmoke;
+}
+button {
+  box-shadow: 0 8px 6px -6px black;
+  font-family: "Shadows Into Light", cursive;
+  background-color: lightskyblue;
+  width: 25%;
+  height: 60px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+.searchClear {
+  float: right;
+  background-color: rgb(211, 69, 69);
+  color: whitesmoke;
+  width: 10%;
+  height: 45px;
+}
+.showHistory {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 10px;
+  width: 50%;
+  height: 60px;
+}
